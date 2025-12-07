@@ -1,1 +1,27 @@
-Agente/biologia.pdf
+﻿# Entornos virtuales
+.venv/
+venv/
+Agente/.venv/
+Agente/venv/
+
+# Archivos y caches de Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entorno y variables
+.env
+*.env
+
+# Índices FAISS y archivos grandes generados
+Agente/cerebro_kepler/index.faiss
+Agente/cerebro_kepler/index.pkl
+
+# Logs
+Agente/logs/
+
+# Otros
+.DS_Store
+Thumbs.db
